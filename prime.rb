@@ -7,6 +7,7 @@ def prime?(number)
     true
   else
     (4..(number ** 1/2)).each do |i|
+      puts "#{number % i}"
       if number % i != 0
         return false
       end
@@ -14,3 +15,5 @@ def prime?(number)
     true
   end
 end
+
+prime?(11)
