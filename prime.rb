@@ -8,7 +8,7 @@ def prime?(number)
   else
     (4..(number ** 1/2)).each do |i|
       puts "#{number % i}"
-      if number % i != 0
+      if number % i == 0
         return false
       end
     end
