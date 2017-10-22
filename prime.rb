@@ -18,4 +18,4 @@ def prime?(number)
   end
 end
 
-prime?(589)
+prime?(5891)
