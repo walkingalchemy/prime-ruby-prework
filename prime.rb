@@ -13,8 +13,9 @@ def prime?(number)
         return false
       end
     end
+    puts "Prime!"
     true
   end
 end
 
-prime?(11)
+prime?(10)
