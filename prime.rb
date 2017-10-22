@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(number)
-  if number < 0
+  if number <= 0
     return false
   end
   if (1..3).include?(number)
