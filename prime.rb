@@ -1,7 +1,7 @@
 # Add  code here!
 def prime?(number)
   if number < 0
-    false
+    return false
   end
   if (1..3).include?(number)
     true
