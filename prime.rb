@@ -3,7 +3,7 @@ def prime?(number)
   if number < 0
     false
   end
-  if (1..3).include(number)
+  if (1..3).include?(number)
     true
   else
     (4..(number ** 1/2)).each do |i|
