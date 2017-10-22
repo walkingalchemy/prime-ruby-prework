@@ -7,15 +7,10 @@ def prime?(number)
     true
   else
     (4..(number ** 1/2)).each do |i|
-      puts "#{number % i}"
       if number % i == 0
-        puts "Not Prime!"
         return false
       end
     end
-    puts "Prime!"
     true
   end
 end
-
-prime?(589137)
